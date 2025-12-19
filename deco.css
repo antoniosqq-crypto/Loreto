@@ -9,7 +9,6 @@
             font-family: Arial, sans-serif;
         }
         
-        /* Fondo desenfocado */
         .fondo {
             position: fixed;
             top: 0;
@@ -22,7 +21,7 @@
             z-index: -1;
         }
         
-        /* Título principal */
+
         .titulo {
             text-align: center;
             color: white;
@@ -49,19 +48,19 @@
             max-width: 800px;
             margin: 0 auto 30px auto;
             padding: 20px;
-            background: rgba(0, 0, 0, 0.6); /* Fondo oscuro semitransparente */
+            background: rgba(0, 0, 0, 0.6); 
             color: white;
             border-radius: 15px;
             text-align: center;
             line-height: 1.6;
             font-size: 1.1em;
-            border: 1px solid #4caf50; /* Borde verde selva */
+            border: 1px solid #4caf50; 
         }
         .descripcion-region strong {
-            color: #4caf50; /* Resaltar el Amazonas en verde */
+            color: #4caf50; 
         }
         
-        /* Tarjetas de recetas */
+        
         .tarjeta {
             background-color: white;
             border-radius: 10px;
@@ -105,7 +104,6 @@
             line-height: 1.4;
         }
         
-        /* Vista de detalle */
         .detalle {
             display: none;
         }
@@ -272,4 +270,5 @@
             .detalle-titulo {
                 font-size: 24px;
             }
+
         }
